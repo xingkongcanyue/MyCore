@@ -57,9 +57,9 @@ namespace Mysoft.Core.Data
             return DbProviderFactories.GetFactory(provideName);
         }
 
-         
-
-
-
+        internal static DbDataAdapter CreateDataAdapter()
+        {
+            return DbProvider.CreateDataAdapter();
+        }
     }
 }

@@ -1,0 +1,6 @@
+E:\02 学习资料\00 我的GitHup\Mysoft.Core\Mysoft.Core\Mysoft.Core\obj\Debug\Mysoft.Core.csprojResolveAssemblyReference.cache
+E:\02 学习资料\00 我的GitHup\Mysoft.Core\Mysoft.Core\Mysoft.Core\bin\Debug\Mysoft.Core.dll
+E:\02 学习资料\00 我的GitHup\Mysoft.Core\Mysoft.Core\Mysoft.Core\bin\Debug\Mysoft.Core.pdb
+E:\02 学习资料\00 我的GitHup\Mysoft.Core\Mysoft.Core\Mysoft.Core\bin\Debug\Autofac.dll
+E:\02 学习资料\00 我的GitHup\Mysoft.Core\Mysoft.Core\Mysoft.Core\obj\Debug\Mysoft.Core.dll
+E:\02 学习资料\00 我的GitHup\Mysoft.Core\Mysoft.Core\Mysoft.Core\obj\Debug\Mysoft.Core.pdb

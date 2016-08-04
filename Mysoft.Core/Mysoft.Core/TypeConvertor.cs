@@ -33,9 +33,19 @@ namespace Mysoft.Core
 
 
         public static T To<T>(object obj)
-        { 
+        {
+            if (obj == null || DBNull.Value.Equals(obj))
+            {
+                return default(T);
+            }
+            if (obj is T)
+            {
+                return (T)obj;
+            }
             var type = typeof(T);
-            return (T)Convert.ChangeType(obj, type);
+            if (type == typeof(string))
+                return (T)(object)obj.ToString();
+            return (T)System.Convert.ChangeType(obj, typeof(T));
         }
     }
 }

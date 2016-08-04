@@ -30,7 +30,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Autofac">
+      <HintPath>..\..\..\..\..\WWW\猴子\bin\Autofac.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -55,6 +59,9 @@
     <Compile Include="Data\DbHelper.cs" />
     <Compile Include="Data\DbQuery.cs" />
     <Compile Include="Data\DbQueryParamter.cs" />
+    <Compile Include="Data\Trans.cs" />
+    <Compile Include="DynamicCalls.cs" />
+    <Compile Include="Extension.cs" />
     <Compile Include="Ioc\IocContainer.cs" />
     <Compile Include="Ioc\IocRegistorBase.cs" />
     <Compile Include="Ioc\IocTypeRegisterBase.cs" />
